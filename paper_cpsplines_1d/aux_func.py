@@ -219,7 +219,6 @@ def plot_confidence_bands(
     _ = ax.axhline(0, c="r")
     _ = ax.plot(x, y_fitted, c=color_cb, label=lab + "curve")
     _ = ax.tick_params(axis="both", which="major", labelsize=16)
-    _ = ax.legend(prop={"size": 20})
     if save_path:
         _ = fig.savefig(save_path, bbox_inches="tight")
     return fig, ax
