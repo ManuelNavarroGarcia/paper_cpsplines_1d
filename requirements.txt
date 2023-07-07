@@ -36,7 +36,7 @@ iniconfig==1.1.1
     # via pytest
 ipykernel==6.7.0
     # via paper-cpsplines-1d (setup.py)
-ipython==8.0.1
+ipython==8.10.0
     # via ipykernel
 jedi==0.18.1
     # via ipython
