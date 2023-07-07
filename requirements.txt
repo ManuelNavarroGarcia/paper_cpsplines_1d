@@ -6,8 +6,6 @@
 #
 asttokens==2.0.5
     # via stack-data
-attrs==21.4.0
-    # via pytest
 backcall==0.2.0
     # via ipython
 black==21.12b0
@@ -32,8 +30,6 @@ executing==0.8.2
     # via stack-data
 fonttools==4.28.5
     # via matplotlib
-iniconfig==1.1.1
-    # via pytest
 ipykernel==6.7.0
     # via paper-cpsplines-1d (setup.py)
 ipython==8.10.0
@@ -78,9 +74,7 @@ numpy==1.22.1
     #   scipy
     #   tensorly
 packaging==21.3
-    # via
-    #   matplotlib
-    #   pytest
+    # via matplotlib
 pandas==1.4.0
     # via
     #   cpsplines
@@ -101,24 +95,18 @@ pip-tools==6.4.0
     # via paper-cpsplines-1d (setup.py)
 platformdirs==2.4.1
     # via black
-pluggy==1.0.0
-    # via pytest
-prompt-toolkit==3.0.24
+prompt-toolkit==3.0.39
     # via ipython
 ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
     # via stack-data
-py==1.11.0
-    # via pytest
 pygments==2.11.2
     # via ipython
 pyparsing==3.0.7
     # via
     #   matplotlib
     #   packaging
-pytest==6.2.5
-    # via paper-cpsplines-1d (setup.py)
 python-dateutil==2.8.2
     # via
     #   jupyter-client
@@ -138,8 +126,6 @@ stack-data==0.1.4
     # via ipython
 tensorly==0.7.0
     # via cpsplines
-toml==0.10.2
-    # via pytest
 tomli==1.2.3
     # via
     #   black
