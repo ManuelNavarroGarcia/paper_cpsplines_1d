@@ -128,7 +128,7 @@ pytz==2021.3
     # via pandas
 pyzmq==22.3.0
     # via jupyter-client
-scipy==1.7.3
+scipy==1.10.0
     # via
     #   cpsplines
     #   tensorly
