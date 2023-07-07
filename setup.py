@@ -16,5 +16,5 @@ setup(
     python_requires=">=3.9",
     setup_requires=["setuptools_scm"],
     install_requires=["matplotlib", "numpy", "pandas", "mosek", "cpsplines"],
-    extras_require={"dev": ["black", "ipykernel", "pip-tools"]},
+    extras_require={"dev": ["black>=23.3.0", "ipykernel", "pip-tools"]},
 )

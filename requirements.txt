@@ -8,10 +8,8 @@ asttokens==2.0.5
     # via stack-data
 backcall==0.2.0
     # via ipython
-black==21.12b0
-    # via
-    #   ipython
-    #   paper-cpsplines-1d (setup.py)
+black==23.3.0
+    # via paper-cpsplines-1d (setup.py)
 click==8.0.3
     # via
     #   black
@@ -73,8 +71,10 @@ numpy==1.22.1
     #   paper-cpsplines-1d (setup.py)
     #   scipy
     #   tensorly
-packaging==21.3
-    # via matplotlib
+packaging==23.1
+    # via
+    #   black
+    #   matplotlib
 pandas==1.4.0
     # via
     #   cpsplines
@@ -104,9 +104,7 @@ pure-eval==0.2.2
 pygments==2.11.2
     # via ipython
 pyparsing==3.0.7
-    # via
-    #   matplotlib
-    #   packaging
+    # via matplotlib
 python-dateutil==2.8.2
     # via
     #   jupyter-client
