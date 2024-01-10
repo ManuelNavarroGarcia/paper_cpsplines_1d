@@ -26,7 +26,7 @@ entrypoints==0.3
     # via jupyter-client
 executing==0.8.2
     # via stack-data
-fonttools==4.28.5
+fonttools==4.43.0
     # via matplotlib
 ipykernel==6.7.0
     # via paper-cpsplines-1d (setup.py)
