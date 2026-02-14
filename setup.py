@@ -13,7 +13,7 @@ setup(
     long_description_content_type="text/markdown",
     author="Manuel Navarro García",
     author_email="manuelnavarrogithub@gmail.com",
-    python_requires=">=3.9",
+    python_requires=">=3.10",
     setup_requires=["setuptools_scm"],
     install_requires=["matplotlib", "numpy", "pandas", "mosek", "cpsplines"],
     extras_require={"dev": ["black>=23.3.0", "ipykernel", "pip-tools"]},
