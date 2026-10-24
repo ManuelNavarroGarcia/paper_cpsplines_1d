@@ -8,7 +8,7 @@ asttokens==2.0.5
     # via stack-data
 backcall==0.2.0
     # via ipython
-black==24.3.0
+black==26.3.1
     # via paper-cpsplines-1d (setup.py)
 click==8.0.3
     # via
@@ -26,7 +26,7 @@ entrypoints==0.3
     # via jupyter-client
 executing==0.8.2
     # via stack-data
-fonttools==4.43.0
+fonttools==4.60.2
     # via matplotlib
 ipykernel==6.7.0
     # via paper-cpsplines-1d (setup.py)
@@ -101,7 +101,7 @@ ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
     # via stack-data
-pygments==2.15.0
+pygments==2.20.0
     # via ipython
 pyparsing==3.0.7
     # via matplotlib
