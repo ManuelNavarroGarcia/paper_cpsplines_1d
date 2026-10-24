@@ -128,7 +128,7 @@ tomli==1.2.3
     # via
     #   black
     #   pep517
-tornado==6.5.5
+tornado==6.5.9
     # via
     #   ipykernel
     #   jupyter-client
